@@ -13,10 +13,10 @@ header .container, main .container, footer .container {
 
 header {
   background: white;
-  /*overflow: auto;*/
+  overflow: auto;
 }
 
-/* header h1 {
+header h1 {
   float: left;
   width: 570px;
 }
@@ -25,14 +25,11 @@ header nav {
   float: right;
   width: 285px;
 }
-*/
 
 main {
   background: white;
-  /*overflow: auto;*/
+  overflow: auto;
 }
-
-/*
 
 main .left {
   float: left;
