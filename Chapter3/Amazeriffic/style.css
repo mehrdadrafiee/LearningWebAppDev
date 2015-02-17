@@ -5,16 +5,15 @@ body {
 header, main, footer {
   min-width: 855px;
 }
-/*
+
 header .container, main .container, footer .container {
   max-width: 855px;
   margin: auto;
 }
-*/
 
 header {
   background: white;
-  overflow: auto;
+  /*overflow: auto;*/
 }
 
 /* header h1 {
@@ -30,7 +29,7 @@ header nav {
 
 main {
   background: white;
-  overflow: auto;
+  /*overflow: auto;*/
 }
 
 /*
