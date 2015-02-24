@@ -1,5 +1,6 @@
 body {
-  background: #f9e933;
+  background: #FFFF00;
+
 }
 
 header, main, footer {
@@ -13,22 +14,35 @@ header .container, main .container, footer .container {
 
 header {
   background: white;
+  height: 100px;
   overflow: auto;
 }
 
 header h1 {
   float: left;
   width: 570px;
+  font-size: 40px;
+  vertical-align: center;
 }
 
 header nav {
   float: right;
   width: 285px;
+  vertical-align: center;
+
+}
+
+header nav a {
+  color: tomato;
+  vertical-align: center;
 }
 
 main {
   background: white;
   overflow: auto;
+  vertical-align: center;
+  text-align: center;
+  height: 500px;
 }
 
 main .left {
@@ -49,4 +63,54 @@ footer .left {
 footer .sitemap {
   float: right;
   width: 285px;
+}
+dd {
+
+}
+
+.container h1 {
+  font-size: 60px;
+  vertical-align: center;
+  margin-top: 35px;
+  color: tomato;
+  font-style: italic;
+}
+
+.container nav {
+  margin-top: 40px;
+  vertical-align: center;
+  margin-top: 35px;
+}
+main .left h2, h3 {
+  font-style: bold;
+  font-size: 30px;
+}
+
+footer {
+  height: 100px;
+}
+
+footer h5 {
+  font-style: bold;
+  font-size: 30px;
+}
+
+dt {
+  font-style: bold;
+  font-size: 30px;
+}
+
+footer .contact {
+  vertical-align: center;
+  margin-top: 10px;
+}
+
+footer .sitemap {
+  vertical-align: center;
+  margin-top: -100px;
+}
+
+main img {
+  height: 100px;
+  width: 500px;
 }
