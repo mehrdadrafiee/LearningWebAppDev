@@ -42,7 +42,7 @@ var main = function () {
                     if ($input.val() !== "") {
                         toDos.push($input.val());
                         $input.val("");
-                    } 
+                    }
                 });
 
                 $content = $("<div>").append($input).append($button);
@@ -50,18 +50,14 @@ var main = function () {
                 can be done with $content = $("<div>").append($input, $button); */
             } else if ($element.parent().is(":nth-child(4)")) {
                 $content = $("<div>");
-                $content.append($("<a class='gallery' href='1.png'>First_Image"));
-                $content.append($("<a class='gallery' href='2.png'>Second_Image"));
-                $content.append($("<a class='gallery' href='3.png'>Third_Image"));
-                $content.append($("<a class='gallery' href='4.png'>Fourth_Image"));
-
+                $content.append($("<a class='gallery' href='1.png'>firstImage</a><br>\n"));
+                $content.append($("<a class='gallery' href='2.png'>secondImage</a><br>\n"));
+                $content.append($("<a class='gallery' href='3.png'>thirdImage</a><br>\n"));
+                $content.append($("<a class='gallery' href='4.png'>fourthImage</a><br>\n"));
             }
 
             $("main .content").append($content);
-            $("a.gallery").colorbox({rel:'gallery', slideshow:true});
-                return false;
-            });
-
+            return false;
         });
     });
 
@@ -69,3 +65,4 @@ var main = function () {
 };
 
 $(document).ready(main);
+$('a.gallery').colorbox({rel:'gal', slideshow: true, opacity:0.5});
