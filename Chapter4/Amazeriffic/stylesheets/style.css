@@ -134,3 +134,23 @@ footer .sitemap .left {
 footer .sitemap .right {
     float: right;
 }
+
+.questions dt {
+  font-style: bold;
+}
+
+img {
+  height: 150px;
+  width: 500px;
+}
+
+ button {
+  padding: 3px;
+  border-radius: 5px;
+  color: white;
+  background: limeGreen;
+  cursor: pointer;
+  font-size: 2em;
+  margin-left: 8px;
+  border-color: lime;
+}
